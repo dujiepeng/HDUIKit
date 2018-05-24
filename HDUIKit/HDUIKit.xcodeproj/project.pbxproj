@@ -14,6 +14,8 @@
 		90B82A3D20B6AB65000540F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90B82A3B20B6AB65000540F9 /* LaunchScreen.storyboard */; };
 		90B82A4020B6AB65000540F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B82A3F20B6AB65000540F9 /* main.m */; };
 		90B82A5220B6ADB7000540F9 /* HDMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B82A4B20B6ADB7000540F9 /* HDMessageViewController.m */; };
+		90C6D6ED20B6D60400F773D3 /* HDToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C6D6EC20B6D60400F773D3 /* HDToolBar.m */; };
+		90C6D6F120B6D80A00F773D3 /* HDNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C6D6F020B6D80A00F773D3 /* HDNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		90B82A3F20B6AB65000540F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		90B82A4B20B6ADB7000540F9 /* HDMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDMessageViewController.m; sourceTree = "<group>"; };
 		90B82A4C20B6ADB7000540F9 /* HDMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDMessageViewController.h; sourceTree = "<group>"; };
+		90C6D6EB20B6D60400F773D3 /* HDToolBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDToolBar.h; sourceTree = "<group>"; };
+		90C6D6EC20B6D60400F773D3 /* HDToolBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDToolBar.m; sourceTree = "<group>"; };
+		90C6D6EF20B6D80A00F773D3 /* HDNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDNavigationController.h; sourceTree = "<group>"; };
+		90C6D6F020B6D80A00F773D3 /* HDNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDNavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +84,7 @@
 		90B82A4920B6ADB7000540F9 /* HDUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				90C6D6EE20B6D7FA00F773D3 /* HDNavigationController */,
 				90B82A4A20B6ADB7000540F9 /* HDMessageViewController */,
 			);
 			path = HDUIKit;
@@ -100,6 +107,8 @@
 				90B82A4F20B6ADB7000540F9 /* HDVoiceView */,
 				90B82A5020B6ADB7000540F9 /* HDFaceView */,
 				90B82A5120B6ADB7000540F9 /* HDEmojiView */,
+				90C6D6EB20B6D60400F773D3 /* HDToolBar.h */,
+				90C6D6EC20B6D60400F773D3 /* HDToolBar.m */,
 			);
 			path = HDToolBar;
 			sourceTree = "<group>";
@@ -130,6 +139,15 @@
 			children = (
 			);
 			path = HDEmojiView;
+			sourceTree = "<group>";
+		};
+		90C6D6EE20B6D7FA00F773D3 /* HDNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				90C6D6EF20B6D80A00F773D3 /* HDNavigationController.h */,
+				90C6D6F020B6D80A00F773D3 /* HDNavigationController.m */,
+			);
+			path = HDNavigationController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,8 +221,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				90B82A5220B6ADB7000540F9 /* HDMessageViewController.m in Sources */,
+				90C6D6F120B6D80A00F773D3 /* HDNavigationController.m in Sources */,
 				90B82A3520B6AB64000540F9 /* ViewController.m in Sources */,
 				90B82A4020B6AB65000540F9 /* main.m in Sources */,
+				90C6D6ED20B6D60400F773D3 /* HDToolBar.m in Sources */,
 				90B82A3220B6AB64000540F9 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

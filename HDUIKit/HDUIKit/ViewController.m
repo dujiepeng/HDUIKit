@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "HDMessageViewController.h"
+#import "HDNavigationController.h"
 
 @interface ViewController ()
 
@@ -26,5 +27,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)clicked:(id)sender {
+    HDMessageViewController *mVC = [[HDMessageViewController alloc] init];
+    HDNavigationController *nav = [[HDNavigationController alloc] initWithRootViewController:mVC];
+    [self presentViewController:nav animated:YES completion:nil];
+}
 
 @end
